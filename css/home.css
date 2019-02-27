@@ -1,0 +1,26 @@
+.homecontents {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.pictures img {
+  height: 330px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.intro {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.intro h1 {
+  color: #FFAD05; /*dark yellow */
+  text-transform: uppercase;
+  font-size: 20px;
+}

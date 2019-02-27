@@ -1,0 +1,36 @@
+body {
+  background-color: #DAEDDD; /*light gray*/
+  border 0;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  display: inline;
+  overflow: auto;
+}
+
+.orgheader h1 { /*add logo later*/
+  display: flex;
+  justify-content: center;
+  color: #FFAD05; /*dark yellow */
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.navbar { /*make current tab highlighed later*/
+  display:flex;
+  background-color: #5084D3; /*sky blue*/
+  justify-content: space-between;
+  /*position: sticky; */
+}
+
+.navbar div {
+  margin: 20px;
+}
+
+#left {
+  margin-left: 300px;
+}
+
+#right {
+  margin-right: 300px;
+}

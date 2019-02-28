@@ -27,6 +27,10 @@ body {
   margin: 20px;
 }
 
+a:hover { /*improve later where it highlights entire box*/
+  background-color: #2A4670; /*darker sky blue*/
+}
+
 #left {
   margin-left: 300px;
 }
@@ -34,3 +38,16 @@ body {
 #right {
   margin-right: 300px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #51778E; /*dark blue*/
+
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+  margin: 7px;

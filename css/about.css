@@ -1,0 +1,39 @@
+.aboutcontents {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.picturecontents {
+  display:flex;
+  flex-direction:row;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.picinfo {
+  background-color: #293854; /*dark purple*/
+  padding: 20px;
+  text-align: center;
+}
+
+.aboutpicture img {
+  height: 330px;
+  width: 100%;
+}
+
+.mission {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.mission h1 {
+  color: #FFAD05; /*dark yellow */
+  text-transform: uppercase;
+  font-size: 20px;
+}

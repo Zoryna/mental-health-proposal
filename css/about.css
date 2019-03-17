@@ -24,6 +24,11 @@
   line-height: 2;
 }
 
+.picinfo a {
+  color: #FFAD05; /*dark yellow */
+  text-decoration: none;
+}
+
 .aboutpicture img {
   height: 330px;
   width: 100%;

@@ -20,6 +20,10 @@
   line-height: 3.5;
 }
 
+#smallertext {
+  line-height: 2;
+}
+
 .aboutpicture img {
   height: 330px;
   width: 100%;

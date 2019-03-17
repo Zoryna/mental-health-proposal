@@ -1,8 +1,12 @@
 .about4contents {
-  /*display: flex;*/
+  display: flex;
   flex-direction: column;
   margin-left: 300px;
   margin-right: 300px;
+}
+
+.about4contents h1 {
+  color: #FFAD05 /*dark yellow*/
 }
 
 .question {
@@ -25,6 +29,6 @@
 }
 
 
-#bottom {
-  margin-bottom: 10px;
+#top {
+  margin-top: 10px;
 }

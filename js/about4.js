@@ -5,10 +5,10 @@ for (i = 0; i < ques.length; i++) {
   ques[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var answer = this.nextElementSibling;
-    if (answer.style.display === "block") {
-      answer.style.display = "none";
+    if (answer.style.maxHeight){
+      answer.style.maxHeight = null;
     } else {
-      answer.style.display = "block";
+      answer.style.maxHeight = answer.scrollHeight + "px";
     }
   });
 }

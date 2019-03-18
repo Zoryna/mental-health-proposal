@@ -67,6 +67,10 @@ body {
   margin-right: 300px;
 }
 
+#top {
+  margin-top: 10px;
+}
+
 .footer {
   display: flex;
   flex-direction: row;

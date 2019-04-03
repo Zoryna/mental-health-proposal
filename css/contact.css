@@ -31,6 +31,7 @@ input {
 #messText {
   width:900px;
   height:100px;
+  word-wrap: break-word;
 }
 
 #submit {

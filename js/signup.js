@@ -9,3 +9,7 @@ function submitFunction()
   document.getElementById("org").innerHTML = o;
   document.getElementById("size").innerHTML = s;
 }
+
+function notification() {
+  alert("Your application has been submitted! Your submitted information will be displayed below. Thank you for applying!");
+}

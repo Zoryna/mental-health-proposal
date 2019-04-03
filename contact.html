@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Services</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+  <div class="orgheader">
+    <h1>Adolescent Advice & Assistance</h1>
+  </div>
+
+  <div class="navbar" id="nav">
+    <a href="index.html"id="left">Home</a>
+
+    <div class="dropdown">
+      <button class="dropbutton">About</button>
+
+      <div class="dropdown-content">
+        <a href="about1.html">Mission</a>
+        <a href="about2.html">Services</a>
+        <a href="about3.html">Outcome</a>
+        <a href="about4.html">FAQS</a>
+    </div>
+  </div>
+
+    <a href="getinvolved.html"> Get Involved</a>
+    <a href="signup.html">Sign Up</a>
+    <a href="contact.html" id="right"> Contact</a>
+  </div>
+
+  <div class="contactcontents">
+    <h1 id="firsth">Contact Adolescent Advice & Assistance</h1>
+      <div class="contactinfo">
+        <p><b>Phone Number:</b> (773) 123-4567</p>
+        <p><b>Email:</b> aaa.support@gmail.com</p>
+      </div>
+
+      <h1 id="secondh">Send An Email</h1>
+      <form action="">
+        Name:
+          <br>
+          <input type="text" id="nameText" size="35">
+          <br>
+          <br>
+        Email:
+          <br>
+          <input type="text" id="emailText" size="35">
+          <br>
+          <br>
+        Subject:
+          <br>
+          <input type="text" id="subText" size="35">
+          <br>
+          <br>
+          <br>
+        Message:
+          <br>
+          <input type="text" id="messText">
+          <br>
+      </form>
+
+      <br>
+      <button onclick="submitFunction(); notification();" id="submit">Send</button>
+
+      <p id="name"></p>
+      <p id="email"></p>
+      <p id="subject"></p>
+      <p id="message"></p>
+  </div>
+
+  <div class="footer" id="top">
+    <div id="left">
+      <a href= "about1.html">About</a>
+      <a href="getinvolved.html">Get Involved</a>
+    </div>
+
+    <div>
+      <a href ="https://www.nami.org/">National Alliance on Mental Illness</a>
+      <a href="https://www.apa.org/action/science/index">American
+            Psychological Association</a>
+    </div>
+
+    <div id="right">
+      <a href="signup.html">Sign Up</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

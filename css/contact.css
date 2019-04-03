@@ -1,0 +1,50 @@
+.contactcontents {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.contactinfo {
+  display: block;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+#firsth {
+  margin-bottom: 0px;
+}
+
+#secondh {
+  margin-bottom: 25px;
+}
+
+input {
+  border-radius: 10px; /*too make input boxes more round*/
+  border: 1px solid black;
+  padding: 10px;
+  width: 240px;
+  height: 5px;
+}
+
+#messText {
+  width:900px;
+  height:100px;
+}
+
+#submit {
+  padding: 10px;
+  margin-left: 800px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  float:right;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #2A4670; /*darker sky blue*/
+  font-size: 20px;
+  font-family: inherit;
+  cursor:pointer;
+  font-size: 15px;
+}

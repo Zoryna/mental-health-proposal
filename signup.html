@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Services</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+
+<body>
+  <div class="orgheader">
+    <h1>Adolescent Advice & Assistance</h1>
+  </div>
+
+  <div class="navbar" id="nav">
+    <a href="index.html"id="left">Home</a>
+
+    <div class="dropdown">
+      <button class="dropbutton">About</button>
+
+      <div class="dropdown-content">
+        <a href="about1.html">Mission</a>
+        <a href="about2.html">Services</a>
+        <a href="about3.html">Outcome</a>
+        <a href="about4.html">FAQS</a>
+    </div>
+  </div>
+
+    <a href="getinvolved.html"> Get Involved</a>
+    <a href="signup.html">Sign Up</a>
+    <a href="contact.html" id="right"> Contact</a>
+  </div>
+
+  <div class="signupcontents">
+    <h1 id="firsth">Mentors for Mental Health</h1>
+      <div class="summary">
+        <p>
+          Mentors for Mental Health is a one-week mental health training program.
+          It trains high school staff and high school upperclassmen of participating
+          schools to detect mental illnesses in students and possibly help them
+          find some professional help. Our program will educate all participants,
+          but it will focus on teachers, student peers, and security guards.
+          It will offer informational courses on abnormal psychology, social
+          psychology, and the specific challenges that students with low
+          socioeconomic status face. It will also train them on how to approach
+          students and offer support if they seem to be showing some symptoms
+          of a mental illness.
+        </p>
+      </div>
+
+      <h1 id="secondh">Apply</h1>
+      <form action="">
+        Name:
+          <br>
+          <input type="text" id="nameText" size="35">
+          <br>
+          <br>
+        Email:
+          <br>
+          <input type="text" id="emailText" size="35">
+          <br>
+          <br>
+        Organization:
+          <br>
+          <input type="text" id="orgText" size="35">
+          <br>
+          <br>
+        Organization Size:
+          <br>
+          <input type="text" id="sizeText" size="35">
+          <br>
+      </form>
+
+      <br>
+      <button onclick="submitFunction()" id="submit">Submit</button>
+
+      <p>Entered info:</p>
+      <p id="name"></p>
+      <p id="email"></p>
+      <p id="org"></p>
+      <p id="size"></p>
+  </div>
+
+  <div class="footer" id="top">
+    <div id="left">
+      <a href= "about1.html">About</a>
+      <a href="getinvolved.html">Get Involved</a>
+    </div>
+
+    <div>
+      <!--TODO: will place other resources on mental health here-->
+    </div>
+
+    <div id="right">
+      <a href="signup.html">Sign Up</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>

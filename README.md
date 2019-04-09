@@ -22,6 +22,10 @@ CSS
 
 JavaScript
 
+Node.js
+
+Express
+
 ## Getting Started
 
 Clone or download the repository and then double-click on the html files to view the website on a browser.

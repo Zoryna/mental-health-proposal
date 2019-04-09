@@ -11,5 +11,5 @@ function submitFunction()
 }
 
 function notification() {
-  alert("Your email has been sent! Your email will be displayed below. Thank you! You will receive a response in 3-5 business days");
+  alert("Your email has been sent! Your email will be displayed below. Thank you! You will receive a response in 3-5 business days.");
 }

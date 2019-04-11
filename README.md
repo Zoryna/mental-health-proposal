@@ -30,8 +30,8 @@ Express
 
 Clone or download the repository and then double-click on the html files to view the website on a browser.
 
-If you want to run it on a local server, you must have npm, Node.js, and Express installed.
-You can find instructions for their installations below:
+If you want to run it on a local server, you must have Node.js, npm, and Express installed.
+You can find some instructions for their installations below:
 
 Node.js and npm: https://nodejs.org/en/download/
 

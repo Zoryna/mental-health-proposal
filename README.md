@@ -28,9 +28,13 @@ Express
 
 ## Getting Started
 
-Clone or download the repository and then double-click on the html files to view the website on a browser.
+There are a few ways to access the website.
 
-If you want to run it on a local server, you must have Node.js, npm, and Express installed.
+1. You can access the website through this link https://zoryna.github.io/mental-health-proposal/index.html.
+
+2. Clone or download the repository and then double-click on the html files to view the website locally on a browser.
+
+3. If you want to run it on a local server, you must have Node.js, npm, and Express installed.
 You can find some instructions for their installations below:
 
 Node.js and npm: https://nodejs.org/en/download/

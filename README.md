@@ -28,7 +28,7 @@ Express
 
 ## Getting Started
 
-There are a few ways to access the website.
+There are a few ways to access the website:
 
 1. You can access the website through this link https://zoryna.github.io/mental-health-proposal/index.html.
 

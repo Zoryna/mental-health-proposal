@@ -37,9 +37,9 @@ There are a few ways to access the website.
 3. If you want to run it on a local server, you must have Node.js, npm, and Express installed.
 You can find some instructions for their installations below:
 
-  - Node.js and npm: https://nodejs.org/en/download/
+    - Node.js and npm: https://nodejs.org/en/download/
 
-  - Express: http://expressjs.com/
+    - Express: http://expressjs.com/
 
 ## Authors
 

@@ -22,7 +22,6 @@ CSS
 
 JavaScript
 
-Node.js
 
 Express
 
